@@ -1,0 +1,50 @@
+
+/* input */
+input 
+{
+    background: plum;
+    border-color:skyblue;
+    padding-left: 5px;
+    margin: 20px;
+}
+
+/* background color */
+body
+{
+    background-color:aliceblue;
+}
+
+/* pw_hint */
+#pw_hint
+{
+    background-color: aquamarine;
+    padding-left: 1%;
+    padding-top: 0.05%;
+}
+/* button */
+.button
+{
+    margin-left: 30%;
+}
+/* img */
+.img_ben
+{
+    width: 400px;
+    height: 400px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+/* link */
+a:link
+{
+    color: blue;
+}
+a:hover
+{
+    color: aqua;
+}
+a:visited
+{
+    color:violet;
+}

@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <style></style>여기 작성하면 재사용불가능 --> 
+    <!-- <link rel="stylesheet" href="경로적어주면됨."> -->
+    <link rel="stylesheet" href="./Intruduce_Myself.css">
 </head>
 <body>
-    <h1>회원가입</h1>
+    <h1>JOIN</h1>
     <div>
         <form action="https://server.naver.com" method="POST"> 
-            <label for="input_id">ID : </label>
+            <label class='myself' for="input_id">ID : </label>
             <input id="input_id" type="text" name="user_id" placeholder="xxxxx@naver.com" />
             <br />
             <label for="input_pw">PW : </label>
@@ -17,16 +20,26 @@
             <br />
 
             <label for="pw_hint">Select_pw_hint : </label>
-            <select name="select_pw_hint" id="pw_hint">
+            <select class='myself'name="select_pw_hint" id="pw_hint">
                 <option value="Where HomeTown ?">Where is Your HomeTown ?</option>
                 <option value="What religion">What is your religion ?</option>
                 <option value="What name ?">What is Your Gir firend name ?</option>
             </select>
+            <br />
+            <br />
             <label for="pw_hint">Enter Password_Hint : </label>
             <textarea name="user_pw_hint" id="pw_hint" cols="10" rows="2"></textarea>
             <br />
-            <button name="button_send_user_info" type="submit">Submit</button>
 
+            <button class='button'name="button_send_user_info" type="submit">Submit</button>
+            <!-- <img class= "myself"src="자기소개.PNG" alt="this picture is intruduce myself example picture"/> -->
+            <br />
+            <br />
+            
+            <a href="mailto:simonmatthe@naver.com">If you need help? just send mail. I will wait</a>
+            <br />
+
+            <img id='img_ben'class='img_ben'src="ben.jpg" alt="this img is bently baby">
         </form>
     </div>
 </body>
